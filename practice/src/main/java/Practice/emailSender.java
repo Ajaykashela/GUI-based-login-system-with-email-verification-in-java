@@ -39,7 +39,7 @@ public class emailSender {
 
 		}
 
-		String from = "tictactoegame702@gmail.com";
+		String from = "YOUR email ID";
 
 		String host = "smtp.gmail.com";
 
@@ -61,7 +61,7 @@ public class emailSender {
 
 			protected PasswordAuthentication getPasswordAuthentication() {
 
-				return new PasswordAuthentication("tictactoegame702@gmail.com", "9662565814");
+				return new PasswordAuthentication("YOUR EMAIL ID", "YOUR PASSWORD");
 
 			}
 
